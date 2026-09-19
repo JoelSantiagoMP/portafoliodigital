@@ -776,39 +776,31 @@ a {
     border-color: transparent;
 }
 
-.contact-form {
+.contact-actions {
     flex: 1.2;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
 }
 
-.form-group {
-    margin-bottom: 25px;
+.contact-actions-lead {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin-bottom: 8px;
 }
 
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 18px 20px;
-    background: rgba(0,0,0,0.3);
-    border: 1px solid var(--glass-border);
-    border-radius: 10px;
-    color: var(--text-main);
-    font-family: inherit;
-    font-size: 1rem;
-    transition: var(--transition);
+.contact-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
-    background: rgba(0, 210, 255, 0.03);
-    box-shadow: 0 0 15px rgba(0, 210, 255, 0.1);
-}
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-    color: #6c757d;
+.contact-action-btn i {
+    font-size: 1.1rem;
 }
 
 /* ==== FOOTER ==== */

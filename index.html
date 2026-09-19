@@ -413,7 +413,7 @@
                     <div class="timeline-content glass-panel">
                         <h3 data-i18n="exp1_role">Software Developer Trainee</h3>
                         <h4>CampusLands, Bucaramanga</h4>
-                        <span class="date" data-i18n="exp1_date">2023 - Present</span>
+                        <span class="date" data-i18n="exp1_date">September 2025 – August 2026</span>
                         <p data-i18n="exp1_desc">Intensive training in modern software development, focusing on Agile
                             methodologies, full-stack architecture, and building production-ready applications. Working
                             on increasingly complex systems like the Academic Tracker and Event Managers using Scrum
@@ -426,7 +426,7 @@
                     <div class="timeline-content glass-panel">
                         <h3 data-i18n="exp2_role">Full-Stack & Data Architecture Projects</h3>
                         <h4 data-i18n="exp2_sub">CampusLands Ecosystem</h4>
-                        <span class="date" data-i18n="exp2_date">2023 - 2024</span>
+                        <span class="date" data-i18n="exp2_date">2025 – 2026</span>
                         <p data-i18n="exp2_desc">Designed scalable SQL databases, implemented Python-based logic
                             simulators, built dynamic JS front-ends consuming REST APIs, and automated Telegram bots
                             utilizing n8n pipelines.</p>
@@ -451,30 +451,34 @@
                         message!</p>
 
                     <div class="social-links">
-                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="mailto:example@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/JoelSantiagoMP" class="social-icon" target="_blank"
+                            rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-icon" id="linkedinLink" aria-label="LinkedIn"
+                            title="LinkedIn (próximamente)">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:joelmartinezp07@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
 
-                <form class="contact-form glass-panel" data-aos="fade-left"
-                    onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-                    <div class="form-group">
-                        <input type="text" data-placeholder-i18n="contact_name_placeholder" placeholder="Your Name"
-                            required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" data-placeholder-i18n="contact_email_placeholder" placeholder="Your Email"
-                            required>
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="5" data-placeholder-i18n="contact_msg_placeholder" placeholder="Your Message"
-                            required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block" data-i18n="contact_btn">Send
-                        Message</button>
-                </form>
+                <div class="contact-actions glass-panel" data-aos="fade-left">
+                    <p class="contact-actions-lead" data-i18n="contact_actions_lead">Choose how you'd like to reach me:
+                    </p>
+                    <a href="mailto:joelmartinezp07@gmail.com?subject=Contacto%20desde%20el%20portafolio"
+                        class="btn btn-primary btn-block contact-action-btn">
+                        <i class="fas fa-envelope"></i>
+                        <span data-i18n="contact_btn_email">Send an Email</span>
+                    </a>
+                    <a href="https://github.com/JoelSantiagoMP" class="btn btn-outline btn-block contact-action-btn"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span data-i18n="contact_btn_github">View GitHub</span>
+                    </a>
+                </div>
 
             </div>
         </div>
